@@ -28,7 +28,8 @@
     --light-blue: #4c6e97;
     --light-blue-2: #1d3450;
     --white: #fff;
-    --gradient: linear-gradient(rgba(0 0 0 / 0.5), transparent)
+    --gradient: linear-gradient(rgba(0 0 0 / 0.5), transparent);
+    --dark-purple: #3c3444;
 }
 
 * {
@@ -194,6 +195,22 @@ nav ul {
     }
 }
 
+/* Benefits */
+
+.benefits-head {
+    background-color: var(--dark-purple);
+    color: var(--white);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.benefits__heading {
+    padding: 1rem;
+}
 
 /* Media Queries */
 
