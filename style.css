@@ -30,6 +30,7 @@
     --white: #fff;
     --gradient: linear-gradient(rgba(0 0 0 / 0.5), transparent);
     --dark-purple: #3c3444;
+    --form-bg: rgba(19 28 39 / 0.8)
 }
 
 * {
@@ -247,6 +248,52 @@ nav ul {
 
 .card__heading+p {
     padding: 1rem;
+}
+
+/* Contact */
+
+#contact {
+    min-height: 100vh;
+    background: var(--gradient), url(./img/contact-mountain.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-wrapper {
+    background-color: var(--form-bg);
+    width: 60%;
+    color: var(--white);
+    border-radius: 20px;
+}
+
+.form-head {
+    text-align: center;
+    padding: 4rem;
+}
+
+.name-form,
+.email-form {
+    padding: 3rem;
+    text-align: center;
+}
+
+.form-wrapper label {
+    margin-inline-end: 3rem;
+}
+
+.form-wrapper button {
+    width: 100%;
+    padding-block: 2rem;
+    margin-block-start: 8rem;
+    border-radius: 0 0 20px 20px;
+}
+
+.form-wrapper input {
+    padding: 1rem 2rem;
+    border-radius: 5px;
 }
 
 /* Media Queries */
