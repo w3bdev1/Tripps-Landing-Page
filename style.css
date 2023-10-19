@@ -201,6 +201,7 @@ nav ul {
     background-color: var(--dark-purple);
     color: var(--white);
     padding: 3rem;
+    min-height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -209,6 +210,42 @@ nav ul {
 }
 
 .benefits__heading {
+    padding: 1rem;
+}
+
+.cards {
+    min-height: 70vh;
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card {
+    flex: 1 1 25rem;
+    min-height: 40vh;
+    box-shadow: 0 1rem 1rem rgba(0 0 0 / 0.1), 0 2rem 2rem rgba(0 0 0 / 0.1);
+}
+
+.card-icon {
+    background: var(--light-blue-2);
+}
+
+.cards img {
+    max-width: 15%;
+    margin-block: 2rem;
+}
+
+.card__heading {
+    font-size: 2.8rem;
+    font-weight: bold;
+    padding-block-start: 3rem;
+}
+
+.card__heading+p {
     padding: 1rem;
 }
 
