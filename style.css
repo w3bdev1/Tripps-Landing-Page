@@ -43,6 +43,8 @@
 html {
     font-size: 62.5%;
     /* 10px */
+    scroll-behavior: smooth;
+
 }
 
 body {
@@ -372,5 +374,11 @@ footer ul {
 
     .form-wrapper {
         width: 95%;
+    }
+}
+
+@media (prefers-reduced-motion) {
+    html {
+        scroll-behavior: auto;
     }
 }
